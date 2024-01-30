@@ -202,7 +202,11 @@
 </template>
 
 <!-- <script setup>
-</script>
+</script> -->
 
 <style scoped>
-</style> -->
+svg {
+  fill: #114f95;
+  /* background-color: blue; */
+}
+</style>
