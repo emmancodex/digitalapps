@@ -11,7 +11,6 @@
     </div>
     <div
       id="vsheet"
-      width="100%"
       class="v-sheet mx-auto d-flex justify-center flex-column ga-2 pa-5"
     >
       <span class="text-h6 signinText pa-2">
@@ -48,12 +47,12 @@
             variant="outlined"
           ></v-text-field>
         </div>
-        <div class="btn w-100 d-flex justify-center pa-3">
+        <div class="btn w-100 pa-2 mt-4">
           <v-btn
             :disabled="disabled"
             id="v-btn"
             type="submit"
-            class="v-btn v-btn--block rounded-lg elevation-0 pa-8 mt-10 rounded text-h6"
+            class="v-btn v-btn--block rounded-lg elevation-0 pa-8 mt-10 rounded text-h6 mt-auto"
             >Login</v-btn
           >
         </div>
@@ -168,6 +167,8 @@ const loginUser = async () => {
 
 #vsheet {
   border-top: 4px solid #fb730b;
+  width: 100%;
+  max-width: 700px;
 }
 
 @media screen and (min-width: 500px) {
